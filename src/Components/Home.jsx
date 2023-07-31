@@ -16,7 +16,7 @@ export const Home = ({setStateParts}) => {
 
     return (
         <div className='flex flex-col gap-8' >
-            <header className='flex justify-center font-sans text-4xl font-extrabold text-white'>Game Inventory Mini Project</header>
+            <header className='flex justify-center  text-4xl text-white'>Game Inventory Mini Project</header>
             <div className='flex justify-center gap-7 p-2'>
                 < Buttons name={'Inventory'} />
                 < ButtonPage />

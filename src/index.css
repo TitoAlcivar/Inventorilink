@@ -29,7 +29,8 @@
     gap: 6px; 
   }
   
-  .centro > div {
+  .centro >
+   div {
     width: 70px; 
     height:70px; 
     background-color:rgb(83, 107, 145);
@@ -38,4 +39,5 @@
   
   body {
     background-color: rgb(94, 156, 75);
+    background-image: url("./assets/fondo.jpeg");
   }

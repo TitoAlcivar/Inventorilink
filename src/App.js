@@ -1,4 +1,4 @@
-import { Home } from "./components/Home";
+import { Home } from "./Components/Home";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Character } from "./pages/Character";
 import { useState } from "react";

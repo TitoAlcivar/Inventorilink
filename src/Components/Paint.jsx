@@ -28,7 +28,7 @@ export const Paint = ({ img, value, inventory, setSelect, setShowcomponent, sele
     <>
       <div className="border-[0.5px] h-28 border-fuchsia-50"  style={{backgroundColor: parts.map( obj => obj.name).includes(inventory.name) ? '#4882b0' : '', padding:'5px'}} >
         <button className="buttonDouble" onClick={handleDobleClic} >
-          <img  className = 'h-16'src={img} alt=""  />
+          <img className = 'h-16'src={img} alt="" />
           <p>{value}</p>
         </button>
         <hr style={{borderColor: select.name?.includes(inventory.name)? 'blue' : 'rgb(51 65 85)'}} />
